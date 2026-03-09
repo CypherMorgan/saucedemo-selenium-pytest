@@ -43,7 +43,7 @@ The framework automates the main ecommerce workflow of the SauceDemo application
 ---
 
 ## Project Structure
-
+```
 saucedemo-selenium-pytest
 │
 ├── tests
@@ -81,7 +81,7 @@ saucedemo-selenium-pytest
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Framework Execution Flow
