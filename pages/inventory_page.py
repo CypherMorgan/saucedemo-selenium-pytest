@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from utilities.waits import WaitHelper
-from utilities.logger import get_logger
+from utilities.step_logger import log_step
 
 
 class InventoryPage:
@@ -13,19 +13,21 @@ class InventoryPage:
 
         self.driver = driver
         self.wait = WaitHelper(driver)
-        self.logger = get_logger("InventoryPage")
 
+
+    @log_step("Adding backpack to cart")
     def add_item(self):
 
-        self.logger.info("Adding backpack to cart")
         self.wait.wait_for_clickable(self.add_backpack).click()
 
+
+    @log_step("Removing backpack from cart")
     def remove_item(self):
 
-        self.logger.info("Removing backpack from cart")
         self.wait.wait_for_clickable(self.remove_backpack).click()
 
+
+    @log_step("Opening cart page")
     def open_cart(self):
 
-        self.logger.info("Opening cart page")
         self.wait.wait_for_clickable(self.cart_icon).click()

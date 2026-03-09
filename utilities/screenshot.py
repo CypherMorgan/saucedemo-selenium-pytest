@@ -1,14 +1,17 @@
 import os
-import time
+from utilities.run_context import RUN_ID
 
 
-def take_screenshot(driver):
+def take_screenshot(driver, name="failure"):
 
-    if not os.path.exists("screenshots"):
-        os.makedirs("screenshots")
+    folder = "screenshots"
+    os.makedirs(folder, exist_ok=True)
 
-    filename = f"screenshots/screenshot_{int(time.time())}.png"
+    file_path = os.path.join(
+        folder,
+        f"{RUN_ID}_{name}.png"
+    )
 
-    driver.save_screenshot(filename)
+    driver.save_screenshot(file_path)
 
-    return filename
+    return file_path

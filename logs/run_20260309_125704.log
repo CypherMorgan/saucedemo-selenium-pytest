@@ -1,0 +1,78 @@
+2026-03-09 12:57:04,514 | INFO | =====================================
+2026-03-09 12:57:04,515 | INFO | TEST RUN STARTED | RUN_ID: 20260309_125704
+2026-03-09 12:57:04,515 | INFO | =====================================
+2026-03-09 12:57:04,556 | INFO | START TEST: tests/test_cart.py::test_add_and_remove_item
+2026-03-09 12:57:04,556 | INFO | ====== WebDriver manager ======
+2026-03-09 12:57:05,351 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:05,401 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:05,448 | INFO | Driver [C:\Users\kingc\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-09 12:57:06,671 | INFO | STEP: Entering username
+2026-03-09 12:57:07,121 | INFO | STEP COMPLETED: Entering username
+2026-03-09 12:57:07,122 | INFO | STEP: Entering password
+2026-03-09 12:57:07,192 | INFO | STEP COMPLETED: Entering password
+2026-03-09 12:57:07,193 | INFO | STEP: Clicking login button
+2026-03-09 12:57:07,308 | INFO | STEP COMPLETED: Clicking login button
+2026-03-09 12:57:07,308 | INFO | STEP: Adding backpack to cart
+2026-03-09 12:57:07,373 | INFO | STEP COMPLETED: Adding backpack to cart
+2026-03-09 12:57:07,373 | INFO | STEP: Removing backpack from cart
+2026-03-09 12:57:07,424 | INFO | STEP COMPLETED: Removing backpack from cart
+2026-03-09 12:57:13,628 | INFO | RESULT | tests/test_cart.py::test_add_and_remove_item | STATUS: PASSED
+2026-03-09 12:57:13,628 | INFO | END TEST: tests/test_cart.py::test_add_and_remove_item
+2026-03-09 12:57:13,629 | INFO | START TEST: tests/test_checkout.py::test_checkout_process
+2026-03-09 12:57:13,630 | INFO | ====== WebDriver manager ======
+2026-03-09 12:57:14,371 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:14,409 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:14,455 | INFO | Driver [C:\Users\kingc\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-09 12:57:16,138 | INFO | STEP: Entering username
+2026-03-09 12:57:16,246 | INFO | STEP COMPLETED: Entering username
+2026-03-09 12:57:16,247 | INFO | STEP: Entering password
+2026-03-09 12:57:16,310 | INFO | STEP COMPLETED: Entering password
+2026-03-09 12:57:16,311 | INFO | STEP: Clicking login button
+2026-03-09 12:57:16,415 | INFO | STEP COMPLETED: Clicking login button
+2026-03-09 12:57:16,415 | INFO | STEP: Adding backpack to cart
+2026-03-09 12:57:16,487 | INFO | STEP COMPLETED: Adding backpack to cart
+2026-03-09 12:57:16,487 | INFO | STEP: Opening cart page
+2026-03-09 12:57:16,550 | INFO | STEP COMPLETED: Opening cart page
+2026-03-09 12:57:16,550 | INFO | STEP: Clicking checkout button
+2026-03-09 12:57:16,606 | INFO | STEP COMPLETED: Clicking checkout button
+2026-03-09 12:57:16,606 | INFO | STEP: Entering first name
+2026-03-09 12:57:16,654 | INFO | STEP COMPLETED: Entering first name
+2026-03-09 12:57:16,654 | INFO | STEP: Entering last name
+2026-03-09 12:57:16,701 | INFO | STEP COMPLETED: Entering last name
+2026-03-09 12:57:16,702 | INFO | STEP: Entering postal code
+2026-03-09 12:57:16,751 | INFO | STEP COMPLETED: Entering postal code
+2026-03-09 12:57:16,751 | INFO | STEP: Clicking continue
+2026-03-09 12:57:16,817 | INFO | STEP COMPLETED: Clicking continue
+2026-03-09 12:57:16,818 | INFO | STEP: Clicking finish order
+2026-03-09 12:57:16,870 | INFO | STEP COMPLETED: Clicking finish order
+2026-03-09 12:57:23,171 | INFO | RESULT | tests/test_checkout.py::test_checkout_process | STATUS: PASSED
+2026-03-09 12:57:23,172 | INFO | END TEST: tests/test_checkout.py::test_checkout_process
+2026-03-09 12:57:23,172 | INFO | START TEST: tests/test_login.py::test_login_success
+2026-03-09 12:57:23,173 | INFO | ====== WebDriver manager ======
+2026-03-09 12:57:23,938 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:23,980 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:24,018 | INFO | Driver [C:\Users\kingc\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-09 12:57:25,459 | INFO | STEP: Entering username
+2026-03-09 12:57:25,577 | INFO | STEP COMPLETED: Entering username
+2026-03-09 12:57:25,577 | INFO | STEP: Entering password
+2026-03-09 12:57:25,655 | INFO | STEP COMPLETED: Entering password
+2026-03-09 12:57:25,655 | INFO | STEP: Clicking login button
+2026-03-09 12:57:25,769 | INFO | STEP COMPLETED: Clicking login button
+2026-03-09 12:57:31,990 | INFO | RESULT | tests/test_login.py::test_login_success | STATUS: PASSED
+2026-03-09 12:57:31,990 | INFO | END TEST: tests/test_login.py::test_login_success
+2026-03-09 12:57:31,991 | INFO | START TEST: tests/test_logout.py::test_logout
+2026-03-09 12:57:31,991 | INFO | ====== WebDriver manager ======
+2026-03-09 12:57:32,732 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:32,777 | INFO | Get LATEST chromedriver version for google-chrome
+2026-03-09 12:57:32,816 | INFO | Driver [C:\Users\kingc\.wdm\drivers\chromedriver\win64\145.0.7632.117\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-09 12:57:34,305 | INFO | STEP: Entering username
+2026-03-09 12:57:34,421 | INFO | STEP COMPLETED: Entering username
+2026-03-09 12:57:34,421 | INFO | STEP: Entering password
+2026-03-09 12:57:34,485 | INFO | STEP COMPLETED: Entering password
+2026-03-09 12:57:34,486 | INFO | STEP: Clicking login button
+2026-03-09 12:57:34,597 | INFO | STEP COMPLETED: Clicking login button
+2026-03-09 12:57:41,498 | INFO | RESULT | tests/test_logout.py::test_logout | STATUS: PASSED
+2026-03-09 12:57:41,499 | INFO | END TEST: tests/test_logout.py::test_logout
+2026-03-09 12:57:41,500 | INFO | =====================================
+2026-03-09 12:57:41,500 | INFO | TEST RUN FINISHED
+2026-03-09 12:57:41,500 | INFO | =====================================
