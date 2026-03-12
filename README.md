@@ -1,5 +1,9 @@
 # SauceDemo Selenium PyTest Automation Framework
 
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![Selenium](https://img.shields.io/badge/selenium-automation-green)
+![PyTest](https://img.shields.io/badge/pytest-testing-orange)
+
 A UI automation framework built with **Python, Selenium WebDriver, and PyTest** to automate core user workflows on the SauceDemo demo ecommerce application.
 
 The framework follows the **Page Object Model (POM)** design pattern and includes reusable utilities, structured logging, explicit waits, failure screenshots, and automated HTML test reports.
